@@ -1,0 +1,333 @@
+.home {
+    height: 100vh;
+    background-color: palevioletred;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home-content { 
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    background: palevioletred;
+}
+.home h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 12em;
+    color: blueviolet;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.5;
+    text-shadow: -2px 2px 0 #222,
+                 -4px 4px 0 #222,
+                 -6px 6px 0 #222,
+                 -8px 8px 0 #222,
+                 -10px 10px 0 #222,
+                 -10px 10px 0 #222,
+                 -12px 12px 0 #222,
+                 -14px 14px 0 #222,
+                 -16px 16px 0 #222,
+                 -18px 18px 20px #000,
+                 -18px 18px 30px #000,
+                 -18px 18px 50px #000,
+                 -18px 18px 150px #000;
+}
+.home h2:nth-child(2) {
+    color: #03a9f4;
+    text-shadow: -2px 2px 0 #0375a9,
+                 -4px 4px 0 #0375a9,
+                 -6px 6px 0 #0375a9,
+                 -8px 8px 0 #0375a9,
+                 -10px 10px 0 #0375a9,
+                 -10px 10px 0 #0375a9,
+                 -12px 12px 0 #0375a9,
+                 -14px 14px 0 #0375a9,
+                 -16px 16px 0 #0375a9,
+                 -18px 18px 20px #000,
+                 -18px 18px 30px #000,
+                 -18px 18px 50px #000,
+                 -18px 18px 150px #000;
+    clip-path: circle(20% at 50% 100%);
+    transition: clip-path 2.5s;
+}
+.home h2:nth-child(2) 
+
+.home h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.home p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@import url('https://fonts.;googleapis.com/css2?family=poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-direction: column;*/
+    background-color: blueviolet;
+    background-size: cover;
+}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2
+{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content p
+{
+    font-weight: 300;
+    color: #fff;
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.container .contactInfo .box 
+{
+   position: relative;
+   padding: 20px 0;
+   display: flex;
+}
+.container .contactInfo  .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container .contactInfo .box .text 
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color-scheme: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3
+{
+   font-weight: 500;
+   color: #00bcd4;
+}
+.contactForm
+{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactForm h2
+{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span 
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox  input:focus ~ span
+.contactForm .inputBox  input:valid ~ span
+.contactForm .inputBox  textarea:focus ~ span
+.contactForm .inputBox  textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+} 
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media (max-width: 991px){
+    .contact{
+        padding: 50px;
+    }
+    .container{
+        flex-direction: column;
+        
+    }
+}
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Add some fun background colors to your sections */
+.primary-school-aftercare {
+    background-color: lightpink; /* Yellow */
+  }
+  
+  .high-school-aftercare {
+    background-color: skyblue; /* Sky Blue */
+  }
+  
+  .software-development-for-kids {
+    background-color: lightsalmon; /* Light Salmon */
+  }
+  
+  .music-lessons {
+    background-color: lightgreen; /* Light Green */
+  }
+  
+  /* Style headings to make them more playful */
+  h1, h3 {
+    font-family: 'Comic Sans MS', cursive;
+    color: deeppink; /* Deep Pink */
+  }
+  
+  /* Add rounded corners to your content boxes */
+  .content {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Center and align images in order */
+.image-container {
+    display: flex;
+    justify-content: space-between; /* Align images in a row */
+    align-items: center; /* Center images vertically */
+    margin-top: 20px;
+  }
+  
+  /* Center images and add a little bounce animation */
+  img {
+    max-width: 100%;
+    animation: bounce 1s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-5px);
+    }
+  }
+
+button {
+  position: relative;
+  bottom:20%;
+  font-family:cursive;
+  font-size:24pt;
+  letter-spacing:3px;
+  background: yellow;
+  border:none;
+  border-radius:5px;
+  color:black;
+  cursor:pointer;
+  transition:all 0.4s;
+  padding: 10px 20px;
+}
+
+button:hover{
+  color:white;
+}
+
+button:focus{
+  outline:none;
+}
